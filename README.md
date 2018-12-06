@@ -10,7 +10,7 @@ Duplicated  Question Pairs
 difflib
 - 字符比较特征
 
-字符串模糊匹配
+字符串模糊匹配 fuzz
 - 简单比 fuzz.ratio
 - 部分比 fuzz.partial_ratio
 - 单词集合比 fuzz.token_set_ratio
@@ -19,3 +19,9 @@ difflib
 -  fuzz.WRatio
 -  fuzz.partial_token_set_ratio
 -  fuzz.partial_token_sort_ratio
+
+Tfidf
+
+- tfidf_sum tfidf相加之后的和
+- tfidf_mean tfidf的平均值
+- tfidf_len tfidf向量的长度
