@@ -51,11 +51,21 @@ embedding 特征
 - cityblock 曼哈顿距离
 - jaccard
  > 杰卡德距离(Jaccard Distance) 是用来衡量两个集合差异性的一种指标，它是杰卡德相似系数的补集，被定义为1减去Jaccard相似系数
-- canberra
-- euclidean 
-- minkowski
+- canberra 堪培拉距离
+
+![](https://people.revoledu.com/kardi/tutorial/Similarity/image/CanberraDistance_clip_image004.gif)
+
+- euclidean 欧氏距离
+- minkowski 
+> 明氏距离又叫做明可夫斯基距离，是欧氏空间中的一种测度，被看做是欧氏距离和曼哈顿距离的一种推广
+
+![](https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D122/sign=d199862ca764034f0bcdc6049dc27980/1c950a7b02087bf490b31f18fed3572c10dfcfe0.jpg)
 - braycurtis
 
+> Bray-Curtis距离是以该统计指标的提出者J. Roger Bray和John T. Curtis的名字命名的，主要基于OTUs的计数统计，
+比较两个群落微生物的组成差异。与unifrac距离，包含的信息完全不一样；相比于jaccard距离，Bray-Curtis则包含了OTUs丰度信息。
+![](http://www.dengfeilong.com/uploads/allimg/180111/1-1P1110645025Q.png)
 
 ## 参考资料
 - [3.1.6 峰度（Kurtosis）和偏度（Skewness）](https://blog.csdn.net/binbigdata/article/details/79897160)
+- [微生物多样性分析之Bray curtis距离](http://www.dengfeilong.com/weishengwu/130.html)
